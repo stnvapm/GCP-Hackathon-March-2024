@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 from ydata_profiling import ProfileReport
 import base64
+from PIL import Image
+import requests
+from io import BytesIO
 
 # On the terminal run: streamlit run --server.runOnSave true sl1.py
 # Set page title and favicon
@@ -43,7 +46,9 @@ if "df" not in session_state:
 # Main function
 def main():
     # Logo and title
-    st.image("logo.png", width=200)
+    response = requests.get("https://eatsleepworkrepeat.com/wp-content/uploads/2022/02/lloyds-bank.png")
+    img = Image.open(BytesIO(response.content))
+    st.image(img, width=200)
     st.title('GCP Hackathon - Team 5 - Data quality checks')
 
     # Add text under the title
