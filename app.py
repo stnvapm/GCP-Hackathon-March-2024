@@ -86,10 +86,6 @@ def main():
             st.warning("Please upload a CSV file in the 'Input' tab.")
 
 
-# Function to generate data profiling report
-
-# Function to generate data profiling report
-# @st.cache_resource
 def generate_report(df):
     return ProfileReport(df, explorative=True)
 
