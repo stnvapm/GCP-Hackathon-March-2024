@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.sidebar .sidebar-content {
+    background-color: #1c1c1c;
+}
+
+.reportview-container .main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.stButton>button {
+    color: white;
+    background: linear-gradient(90deg, rgba(238,0,153,1) 0%, rgba(221,0,238,1) 100%);
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.stRadio>div>div>div>label {
+    color: white;
+}
+
+.stDataFrame>div>div {
+    color: white;
+    border-color: white;
+}
