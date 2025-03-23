@@ -25,7 +25,7 @@ def load_driver_data():
 def load_race_results():
     data = {
         'Race': [
-            'Mexico City E-Prix', 'Diriyah E-Prix (Race 1)', 'Diriyah E-Prix (Race 2)',
+            'Mexico City EPrix', 'Diriyah E-Prix (Race 1)', 'Diriyah E-Prix (Race 2)',
             'Rome E-Prix (Race 1)', 'Rome E-Prix (Race 2)', 'Monaco E-Prix',
             'Berlin E-Prix (Race 1)', 'Berlin E-Prix (Race 2)', 'Jakarta E-Prix',
             'Marrakesh E-Prix'
